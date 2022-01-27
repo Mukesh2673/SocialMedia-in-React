@@ -14,10 +14,24 @@ export default function Post() {
                  <MoreVertIcon />
             </div>   
         </div>
-        <div className="postCenter"></div>
-        <div className="postBottom"></div>
+        <div className="postCenter">
+            <span className="postText">Hey its my first Post</span>
+            <img  className='postImg' src="snv.jpg" alt=""/>
+        </div>
+        <div className="postBottom">
+            <div className="postBottomLeft">
+                <img className="likeIcon" src="like.png" alt=""/>
+                <img className="likeIcon" src="heart.png" alt=""/>
+                <div className="postLIkeCounter">32 People like it</div>
+
+
+
+            </div>
+            <div className="postBottomRight">
+                <div className="postCommentText">9 comments</div>
+            </div>
+        </div>
         </div>
       </div>
-  );
+  )
 }
-1:03:32
