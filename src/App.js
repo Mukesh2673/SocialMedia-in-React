@@ -1,12 +1,15 @@
 import Home from './Pages/home/Home'
-import Topbar from './components/topbar/Topbar';
+import {Routes,Route} from "react-router-dom";
+import Profile from './components/profile/profile'
 function App(){
   return (
-    <>
-  
-    <Home/>
-    </>
+    <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/profile" element={<Profile/>}/>
+
+    </Routes>
   );
 }
 
 export default App;
+

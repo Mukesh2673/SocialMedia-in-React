@@ -7,22 +7,24 @@ export default function Profile(){
     return(
         <>
         <Topbar/>
+        
+
         <div className="homeContainer">
-        <Sidebar />
+        <Sidebar/>
         <div className="profileRight">
+    
         <div className="profileRightTop">
             <div className="profileCover">
-            <img className="profileCoverImg" src="a1.jpg" alt=""/>
-            <img className="profileUserImg" src="b1.jpg" alt=""/>
+            <img className="profileCoverImg" src="cover.jpg" alt=""/>
+            <img className="profileUserImg" src="ajay.jpg" alt=""/>
             </div>
             <div className="profileInfo">
-                <h4 className="profileInfoName">aldfjdkla</h4>
-                <span className="profileInfoDesc">aldfjdklafasdafdadsfasffdas</span>
+                <h4 className="profileInfoName">Ajay</h4>
+                
             </div>
-        </div>
-        <div className="profileRightBottom">
-            <Feed/>
-            <Rightbar/>
+        </div><br/>
+        <div className="profileRightBottom mt-2">
+            
             </div>
         </div>
 
@@ -32,4 +34,11 @@ export default function Profile(){
         </>
     );
 }
-1:59
+
+
+{/* <div className="homeContainer">
+<Sidebar/>
+<Feed/>
+<Rightbar/>
+</div>
+ */}

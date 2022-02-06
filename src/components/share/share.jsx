@@ -10,8 +10,8 @@ export default function share() {
   <div className="share">
       <div className="ShareWrapper">
           <div className="shareTop">
-              <img className="shareProfileImg" src="la.jpg" alt=""/>
-              <input placeholder='abasfdladfjk' className="shareInput"/>
+              <img className="shareProfileImg" src="ajay.jpg" alt=""/>
+              <input placeholder='add Post' className="shareInput"/>
           </div>
           <hr className="shareHr"/>
         <div className="shareBottom">
